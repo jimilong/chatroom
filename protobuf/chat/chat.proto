@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package chat;
+
+message Register {
+	repeated string service = 1;
+}
+
+message Login {
+	string name = 1;
+	string addr = 2;
+}
+
+message Logout {
+	string addr = 1;
+}
+
+message ChatMsg {
+	string name = 1;
+	string msg = 2;
+	string from = 3;
+	repeated string to = 4;
+}

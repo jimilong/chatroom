@@ -2,8 +2,8 @@ package connector
 
 import (
 	"bufio"
-	"chat_distribute/protobuf/chat"
-	"chat_distribute/protocol"
+	"chatroom/protobuf/chat"
+	"chatroom/protocol"
 	//"fmt"
 	"github.com/golang/protobuf/proto"
 	"log"
